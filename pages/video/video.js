@@ -158,8 +158,8 @@ Page({
   handleToLower(){
     console.log("触底");
     // 数据分页   1.后端分页 2.前端分页
-    console.log('发送请求 || 在前端截取最新的数据 追加到视频列表的后方');
-    console.log('网易云音乐暂时没有提供分页的api');
+    // console.log('发送请求 || 在前端截取最新的数据 追加到视频列表的后方');
+    // console.log('网易云音乐暂时没有提供分页的api');
     // 模拟数据
     let newVideoList=[
         {
