@@ -1,0 +1,18 @@
+<view class="indexContainer">
+    <image wx:if="{{userInfo.avatarUrl}}" class="avatarUrl" src="{{userInfo.avatarUrl}}"></image>
+    <button wx:else bindtap="getUserProfile">获取用户信息</button>
+    <text class="userName">{{userInfo.nickName}}</text>
+  <!-- 测试事件绑定 -->
+  <!-- <view class="goStudy" catchtap="handleParent">
+    <text catchtap="handleChild">{{msg}}</text>
+  </view> -->
+
+  <view class="goStudy" catchtap="toLogs">
+    <text>{{msg}}</text>
+  </view>
+
+</view>
+
+
+<!-- catchtap会阻止向上冒泡 -->
+<!-- bindtap则不会阻止 -->

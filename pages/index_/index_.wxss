@@ -1,0 +1,155 @@
+/* 轮播图区域 */
+.banners {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banners image {
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- 五个图标导航区域 --> */
+.navContainer {
+  display: flex;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.navItem .iconfont {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background: rgb(240, 19, 19);
+  font-size: 50rpx;
+  color: #fff;
+  margin: 20rpx 0;
+}
+
+.navItem text {
+  font-size: 26rpx;
+}
+
+/* 推荐歌曲区域 */
+
+.recommendContainer {
+  padding: 20rpx;
+
+}
+
+/*
+.recommendContainer .header {
+  padding-bottom: 10rpx;
+
+}
+.recommendContainer .header .title {
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color: #666;
+
+}
+
+.title {
+  font-size: 26rpx;
+} */
+
+/* .recommendContainer .header .more { */
+/* 使查看更多偏右 */
+/* float: right;
+  border: 1rpx solid #333;
+  padding: 10rpx 20rpx;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+} */
+
+/* 推荐内容区 */
+
+.recommendScroll {
+  display: flex;
+  height: 280rpx;
+}
+
+.scrollItem {
+  width: 200rpx;
+  margin-right: 20rpx;
+  /* margin: 20rpx; */
+}
+
+.scrollItem image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.scrollItem text {
+  font-size: 26rpx;
+  /* 单行文本溢出隐藏 省略号代替 */
+  /* display: block;
+  white-space: nowrap;  不换行
+  overflow: hidden;
+  text-overflow: ellipsis; */
+
+  /* 多行文本溢出隐藏 省略号代替 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*设置对齐模式*/
+  -webkit-line-clamp: 2;
+  /*设置盒子的行数*/
+}
+
+/* 排行榜 */
+.toplist {
+  padding: 20rpx;
+}
+
+.topListSwiper{
+  height: 400rpx;
+}
+
+.swiperItem{
+  width: 96%;
+  background: #fbfbfb;
+}
+
+.swiperItem .title {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+
+.musicItem {
+  /* 当一个元素设置为flex，其子元素会自动成为block元素 */
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.musicItem image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+}
+
+.musicItem .count {
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.musicItem .musicName {
+  height: 100rpx;
+  line-height: 100rpx;
+
+  max-width: 400rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

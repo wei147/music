@@ -1,0 +1,7 @@
+/*全局共同样式*/
+@import "/static/iconfont/iconfont.wxss";
+/* 没法为page添加标签，只能使用标签选择器 */
+
+page {
+  height: 100%;
+}
