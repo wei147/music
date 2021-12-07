@@ -1,6 +1,11 @@
 // 注册小程序应用
 App({
 
+  // 定义在这里的好处是页面的销毁与app应用的数据无关
+  globalData:{
+    isMusicPlay:false,
+    musicId:''
+  },
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */
