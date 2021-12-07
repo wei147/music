@@ -3,8 +3,8 @@ App({
 
   // 定义在这里的好处是页面的销毁与app应用的数据无关
   globalData:{
-    isMusicPlay:false,
-    musicId:''
+    isMusicPlay:false,  //是否有音乐在播放
+    musicId:''      //音乐id
   },
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）

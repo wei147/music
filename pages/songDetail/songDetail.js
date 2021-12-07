@@ -1,4 +1,6 @@
 import request from "../../utils/request"
+// 获取全局实例
+const appInstance = getApp();
 Page({
 
   /**
