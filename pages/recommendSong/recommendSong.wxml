@@ -17,9 +17,9 @@
     </view>
 
 
-    <!-- 内容区 -->
+    <!-- 内容区  默认的个体是item，默认的下标是index-->
     <scroll-view class="listScroll" scroll-y="true">
-      <view class="scrollItem" wx:for="{{recommendList}}" wx:key="id" data-song="{{item}}" bindtap="toSongDetail">
+      <view class="scrollItem" wx:for="{{recommendList}}" wx:key="id" data-index="{{index}}" data-song="{{item}}" bindtap="toSongDetail">
         <image src="{{item.album.picUrl}}"></image>
         <view class="musicInfo">
           <text class="musicName">{{item.name}}</text>

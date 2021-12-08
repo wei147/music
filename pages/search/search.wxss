@@ -1,0 +1,61 @@
+.searchContainer{
+  padding: 0 20rpx;
+}
+
+.header{
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 10rpx 0;
+
+}
+
+.searchInput{
+  position: relative;
+  flex:1;
+  background: rgba(237, 237, 237, 0.8);
+  border-radius: 30rpx;
+}
+
+.cancel{
+  width: 100rpx;
+  text-align: center;
+}
+
+.searchIcon{
+  position: absolute;
+  left: 16rpx;
+}
+
+.searchIcon input{
+  margin-left: 50rpx;
+  height: 60rpx;
+}
+.placeholder{
+  margin-left: 60rpx;
+  margin-top: 4rpx;
+}
+
+/* 热搜榜 */
+.hotContainer .title{
+  font-size: 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.hotList{
+display: flex;
+/* 换行 */
+flex-wrap: wrap;
+}
+
+.hotItem{
+  width: 50%; /*限定一行只有两个*/
+  height: 80rpx;
+  font-size: 26rpx;
+  line-height: 80rpx;
+}
+
+.hotItem .order{
+  margin: 0 10rpx;
+}
