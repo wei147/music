@@ -21,6 +21,13 @@ Page({
     this.getVideoGroupListData();
   },
 
+  // 跳转至搜索界面
+  toSearch(){
+    wx.navigateTo({
+      url: '/pages/search/search',
+    })
+  },
+
   // 获取导航数据
   async getVideoGroupListData() {
     let videoGroupListData = await request('/video/group/list');

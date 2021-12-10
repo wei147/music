@@ -1,0 +1,8 @@
+@import "/template/myTemplate/myTemplate.wxss";
+
+/* 在模板中定义的同名class会有影响 */
+.otherTitle{
+  font-size: 50rpx;
+  color:crimson;
+  font-weight: bold;
+}

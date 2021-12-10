@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/search/search",
+    "pages/other/other",
     "pages/index_/index_",
+    "pages/search/search",
     "pages/recommendSong/recommendSong",
     "pages/songDetail/songDetail",
     "pages/video/video",

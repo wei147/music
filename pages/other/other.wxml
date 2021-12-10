@@ -1,0 +1,7 @@
+<!-- 关于体验template -->
+<import src="/template/myTemplate/myTempale"></import>
+<view class="otherContainer">
+<!-- 测试模板 -->
+<view class="otherTitle">模板test：</view>
+<template is="myTem" data="{{...person}}"></template>
+</view>

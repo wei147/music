@@ -24,6 +24,14 @@
   font-size: 30rpx;
 
 }
+
+.clear{
+  position: absolute;
+  right: 30rpx;
+  top: 0;
+  font-size: 30rpx;
+}
+
 .cancel {
   width: 100rpx;
   text-align: center;
@@ -43,6 +51,7 @@
   font-size: 28rpx;
 }
 /* 热搜榜 */
+
 .hotContainer{
   margin-top: 30rpx;
 }
@@ -96,4 +105,36 @@ flex-wrap: wrap;
   margin-left: 20rpx;
   border-bottom: 1rpx solid #eee;
   font-size: 26rpx;
+}
+
+
+/* 搜索历史 */
+.history{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50rpx;
+  margin: 20rpx 0;
+}
+
+.history .title{
+  height: 50rpx;
+  font-size: 28rpx;
+}
+
+.history .historyItem{
+  height: 50rpx;
+  font-size: 26rpx;
+  background: #ededed;
+  margin-left: 20rpx;
+  padding:0 30rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.delate{
+  position: absolute;
+  bottom: 10rpx;
+  right: 15rpx;
+  font-size: 36rpx;
 }
