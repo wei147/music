@@ -1,7 +1,12 @@
 <!-- 关于体验template -->
 <import src="/template/myTemplate/myTempale"></import>
 <view class="otherContainer">
-<!-- 测试模板 -->
-<view class="otherTitle">模板test：</view>
-<template is="myTem" data="{{...person}}"></template>
+
+  <!-- 测试模板 -->
+  <view class="otherTitle">模板test：</view>
+  <template is="myTem" data="{{...person}}"></template>
+
+  <!-- 测试获取用户唯一标识openId -->
+  <view class="otherTitle">获取用户的唯一标识：</view>
+  <button bindtap="handleGetOpenId">获取openId</button>
 </view>

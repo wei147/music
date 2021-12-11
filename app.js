@@ -1,4 +1,15 @@
 // 注册小程序应用
+
+// static
+// app.use(express.static(path.join))
+// 注册获取用户唯一标识的接口
+// app.use('/getOpenId',(req, res, next)=>{
+//   let code = req.query.code;
+//   console.log('code:'+code);
+//   res.send('测试数据')
+// });
+
+
 App({
 
   // 定义在这里的好处是页面的销毁与app应用的数据无关
@@ -6,6 +17,10 @@ App({
     isMusicPlay:false,  //是否有音乐在播放
     musicId:''      //音乐id
   },
+
+
+
+
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */

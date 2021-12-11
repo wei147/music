@@ -1,4 +1,4 @@
-// pages/other/other.js
+import request from '../../utils/request'
 Page({
 
   /**
@@ -11,6 +11,19 @@ Page({
     }
   },
 
+  // 获取openId
+  handleGetOpenId(){
+    // 1. 获取登录凭证
+    wx.login({
+      success:async (res)=>{
+        let code = res.code;
+        // 2. 将登录凭证发送服务器
+        let result = await request('/getOpenId',{code})
+        console.log(result);
+
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
